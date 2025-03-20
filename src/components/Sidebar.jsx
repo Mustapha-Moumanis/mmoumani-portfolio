@@ -1,4 +1,4 @@
-// import { IconContext, GithubLogo } from "@phosphor-icons/react";
+import { IconContext, LinkedinLogo, GithubLogo } from "@phosphor-icons/react";
 import {useState, useRef,useEffect} from 'react'
 import menu_home_icon from '../assets/images/svg/home.svg'
 import menu_about_icon from '../assets/images/svg/about.svg'
@@ -53,22 +53,19 @@ const Sidebar = ({ menuRef, toggleMenu }) => {
             <p>moumanis.mustapha@gmail.com</p>
           </a>
           <div className="media-main">
-          {/* <IconContext.Provider
+          <IconContext.Provider
             value={{
-              color: "limegreen",
-              size: 32,
+              size: 20,
               weight: "bold",
-              mirrored: false,
             }}
           >
             <a href="https://www.linkedin.com" className="media-icons">
-              <GithubLogo />
-              <i className="ph-bold ph-linkedin-logo"></i>
+            <LinkedinLogo />
             </a>
             <a href="https://dribbble.com" className="media-icons">
-              <i className="ph-bold ph-github-logo"></i>
+              <GithubLogo />
             </a>
-            </IconContext.Provider> */}
+            </IconContext.Provider>
           </div>
         </div>
       </div>

@@ -670,12 +670,11 @@ header {
     filter: brightness(0) saturate(100%) invert(11%) sepia(1%) saturate(1367%) hue-rotate(161deg) brightness(98%) contrast(97%);
 }
 
-.media-icons i {
-    font-size: 20px;
-    color: white;
+.media-icons svg {
+    fill: white;
 }
-.media-icons:hover i {
-    color: black;
+.media-icons:hover svg {
+    fill: black;
 }
 /*-----------------------[ 7.Section One CSS ]------------------------*/
 .section-one,

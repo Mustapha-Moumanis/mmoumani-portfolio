@@ -1,3 +1,4 @@
+import { IconContext, MoonStars, Sun } from "@phosphor-icons/react";
 import { useState, useEffect } from "react";
 
 const Header = ({ hamburgerRef, toggleMenu }) => {
@@ -20,16 +21,24 @@ const Header = ({ hamburgerRef, toggleMenu }) => {
       <>
         <div className="container" id="mainHeader">
           <header>
+            <IconContext.Provider
+              value={{
+                size: 25,
+                weight: "bold",
+              }}
+            >
+
             <button
               className={`color-switcher header__switcher ${theme === "dark" ? "dark-mode" : "light-mode"}`}
               onClick={toggleTheme}
-            >
+              >
               <em></em>
               {
-                theme === "light" ? (<i className="ph-bold ph-moon-stars"></i>)
-                  : (<i className="ph-bold ph-sun"></i>)
+                theme === "light" ? (<MoonStars />)
+                : (<Sun/>)
               }
             </button>
+            </IconContext.Provider>
   
             <div className="aryaBtn-toggle-main mt-0">
               <button id="menu-toggle" className="menu-toggle-button" onClick={toggleMenu}>

@@ -11,7 +11,6 @@ function Fancybox(props) {
 
     const delegate = props.delegate || "[data-fancybox]";
     const options = props.options || {};
-    console.log(options)
 
     NativeFancybox.bind(container, delegate, options);
 
