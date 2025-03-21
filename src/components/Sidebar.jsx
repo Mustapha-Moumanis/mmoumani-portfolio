@@ -39,7 +39,7 @@ const Sidebar = ({ menuRef, toggleMenu }) => {
               <a href="#resume">RESUME<img src={menu_resume_icon} alt="resume" /></a>
             </li>
             <li>
-              <a href="#contact">CONTACT<img src={menu_contact_icon} alt="contact" /></a>
+              <a href="#contact">CONTACT ME<img src={menu_contact_icon} alt="contact" /></a>
             </li>
           </ul>
         </div>

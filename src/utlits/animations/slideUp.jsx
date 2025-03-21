@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 const SlideUp = ({ children, delay = 1 }) => {
     const slideLeftVariants = {

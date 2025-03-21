@@ -123,7 +123,7 @@ const Models = () => {
                                 }}
                         >
                         <figure className="gallery__item">
-                            <a href={ping_pong_home_screen} data-fancybox="main-gallery" data-caption="Caption Images 1">
+                            <a href={ping_pong_home_screen} data-fancybox="main-gallery" data-caption="Ping Pong App">
                                 <img className="content-img" src={ping_pong_app} alt="Ping Pong App Screenshot" />
                             </a>
                         </figure>
@@ -340,11 +340,20 @@ const Models = () => {
                     <div className="modal-body">
                         <h2 className="creative">Webserver 42</h2>
                         <br></br>
+                        <Fancybox
+                                options={{
+                                    Thumbs: false,
+                                    Carousel: {
+                                        infinite: false,
+                                    },
+                                }}
+                        >
                         <figure className="gallery__item">
-                            <a href={webserv} data-fancybox="webserv-main-gallery" data-caption="Caption Images 1">
+                            <a href={webserv} data-fancybox="webserv-main-gallery" data-caption="Web server">
                                 <img className="content-img" src={webserv_gif} alt="gallery-img1"></img>
                             </a>
                         </figure>
+                        </Fancybox>
                         <div className="modal-info">
                             <span className="h2__subtitle animate-in-up">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
@@ -398,11 +407,20 @@ const Models = () => {
                     <div className="modal-body">
                         <h2 className="creative">Chat Application</h2>
                         <br></br>
+                        <Fancybox
+                                options={{
+                                    Thumbs: false,
+                                    Carousel: {
+                                        infinite: false,
+                                    },
+                                }}
+                        >
                         <figure className="gallery__item">
-                            <a href={chat_home_screen} data-fancybox="chat-main-gallery" data-caption="Caption Images 1">
+                            <a href={chat_home_screen} data-fancybox="chat-main-gallery" data-caption="Chat application">
                                 <img className="content-img" src={chat_mockup_app} alt="gallery-img1"></img>
                             </a>
                         </figure>
+                        </Fancybox>
                         <div className="modal-info">
                             <span className="h2__subtitle animate-in-up">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
@@ -503,6 +521,14 @@ const Models = () => {
                                 <span>Details</span>
                             </span>
                             <h4>Web interfaces</h4>
+                            <Fancybox
+                                options={{
+                                    Thumbs: false,
+                                    Carousel: {
+                                        infinite: false,
+                                    },
+                                }}
+                            >
                             <div className="modal-gallery">
                                 <a href={login_1400x1400} data-fancybox="chat-interfice-gallery"
                                     data-caption="Login interface">
@@ -560,7 +586,16 @@ const Models = () => {
                                     </div>
                                 </a>
                             </div>
+                            </Fancybox>
                             <h4>Design</h4>
+                            <Fancybox
+                                options={{
+                                    Thumbs: false,
+                                    Carousel: {
+                                        infinite: false,
+                                    },
+                                }}
+                            >
                             <div className="modal-gallery">
                                 <a href={disctop_content_1400x1400} data-fancybox="chat-design-gallery"
                                     data-caption="Top View of Branding Elements">
@@ -612,6 +647,7 @@ const Models = () => {
                                     </div>
                                 </a>
                             </div>
+                            </Fancybox>
                         </div>
                     </div>
                 </div>
@@ -627,6 +663,14 @@ const Models = () => {
                     <div className="modal-body">
                         <h2 className="creative">Optimization Assurence Application</h2>
                         <br></br>
+                        <Fancybox
+                            options={{
+                                Thumbs: false,
+                                Carousel: {
+                                    infinite: false,
+                                },
+                            }}
+                        >
                         <figure className="modal-gallery">
                                 <a href={SEO_assurance_before} data-fancybox="SEO-main-gallery" data-caption="Before Optimization">
                                     <img className="content-img" src={SEO_assurance_before} alt="gallery-img1"></img>
@@ -641,6 +685,7 @@ const Models = () => {
                                     </div>
                                 </a>
                         </figure>
+                        </Fancybox>
                         <div className="modal-info">
                             <span className="h2__subtitle animate-in-up">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">

@@ -1,4 +1,5 @@
 import { useRef, useEffect } from 'react'
+import { press } from "motion"
 // import reactLogo from './/src/assets/react.svg'
 // import viteLogo from '/vite.svg'
 import Sidebar from './components/Sidebar.jsx'
@@ -7,8 +8,12 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Services from './components/Services.jsx'
 import Portfolio from './components/Portfolio.jsx'
+import Resume from './components/Resume.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 import './App.css'
+
 function App() {
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
@@ -21,7 +26,7 @@ function App() {
         hamburgerRef.current.classList.toggle("is-active", menuRef.current.classList.contains("show"));
       }
     }
-  };``
+  };
 
   // useEffect(() => {
   //   const menuItems = document.querySelectorAll(".menu-list-main li");
@@ -75,6 +80,9 @@ function App() {
             <About />
             <Services />
             <Portfolio />
+            <Resume />
+            <Contact />
+            <Footer />
           </div>
         </div>
       </div>

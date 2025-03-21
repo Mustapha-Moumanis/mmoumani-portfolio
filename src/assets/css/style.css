@@ -1327,7 +1327,7 @@ ul.slick-dots button {
     margin-bottom: 30px;
     position: relative;
 }
-.education::before {
+.education::before, .experience::before {
     content: "";
     border-left: 2px solid var(--main-text);
     position: absolute;
@@ -1336,7 +1336,7 @@ ul.slick-dots button {
     bottom: 0;
     z-index: -1;
 }
-.education {
+.education, .experience {
     display: flex;
     position: relative;
     z-index: 1;
@@ -1375,7 +1375,7 @@ ul.slick-dots button {
     font-weight: 400;
     transition: all 0.3s;
 }
-.education:hover .cursus {
+.education:hover .cursus, .experience:hover .cursus {
     color: var(--main-text);
 }
 .small_yellow_border_main {
