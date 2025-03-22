@@ -1,8 +1,10 @@
 const Footer = () => {
+    const year = new Date().getFullYear()
     return (
         <footer>
             <div className="rights-reserved">
-                <h2>© 2024 - All rights reserved by 
+                <h2>
+                    Copyright @{year}, All Rights Reserved by 
                     <a href="#"> Moumanis Mustapha</a>
                 </h2>
                 {/* <div className="home-media-icon-main-head">

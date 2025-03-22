@@ -1,3 +1,5 @@
+import { chatSkillsData, OptimizAppData, PingPongSkillsData, webServSkillsData } from "../utlits/projectData/projectData"
+
 import html_icon from "../assets/images/svg/skills/html.svg"
 import css_icon from "../assets/images/svg/skills/css.svg"
 import js_icon from "../assets/images/svg/skills/JavaScript.svg"
@@ -76,6 +78,7 @@ import truck_800x800 from "../assets/images/works/chat-app/design/truck-800x800.
 import webserv from "../assets/images/works/webserver/webserv.png"
 import webserv_gif from "../assets/images/works/webserver/webserv.gif"
 import Fancybox from "../assets/javascript/Fancyapps/Fancybox"
+import SlideUp from "../utlits/animations/slideUp"
 
 
 const Models = () => {
@@ -157,66 +160,7 @@ const Models = () => {
                                 <span>Tools</span>
                             </span>
                             <div className="modal-tools">
-                                <div className="modal-tools-img-main">
-                                    <img src={html_icon} width="50" height="50" alt="HTML5" />
-                                    <div className="skill-counter-main">
-                                        <p>HTML5</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={css_icon} width="50" height="50" alt="CSS3" />
-                                    <div className="skill-counter-main">
-                                        <p>CSS3</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={js_icon} width="50" height="50" alt="JavaScript" />
-                                    <div className="skill-counter-main">
-                                        <p>JavaScript</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={bootstrap_icon} width="50" height="50" alt="Bootstrap" />
-                                    <div className="skill-counter-main">
-                                        <p>Bootstrap</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={django_icon} width="50" height="50" alt="Django" />
-                                    <div className="skill-counter-main">
-                                        <p>Django</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={postman_icon} width="50" height="50" alt="Postman" />
-                                    <div className="skill-counter-main">
-                                        <p>Postman</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={postgresql_icon} width="50" height="50" alt="PostgreSQL" />
-                                    <div className="skill-counter-main">
-                                        <p>PostgreSQL</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={nginx_icon} width="50" height="50" alt="Nginx" />
-                                    <div className="skill-counter-main">
-                                        <p>Nginx</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={docker_icon} width="50" height="50" alt="Docker" />
-                                    <div className="skill-counter-main">
-                                        <p>Docker</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={figma_icon} width="50" height="50" alt="Figma" />
-                                    <div className="skill-counter-main">
-                                        <p>Figma</p>
-                                    </div>
-                                </div>
+                                {PingPongSkillsData.map(({ id, icon, alt, name }) => <Card key={id} delay={id} icon={icon} alt={alt} name={name}/>)}
                             </div>
                         </div>
                         <div className="modal-info">
@@ -378,18 +322,7 @@ const Models = () => {
                                 <span>Tools</span>
                             </span>
                             <div className="modal-tools">
-                                <div className="modal-tools-img-main">
-                                    <img src={cpp_icon} width="50" height="50" alt="html-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>c++</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={postman_icon} width="50" height="50" alt="postman-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Postman</p>
-                                    </div>
-                                </div>
+                                {webServSkillsData.map(({ id, icon, alt, name }) => <Card key={id} delay={id} icon={icon} alt={alt} name={name}/>)}
                             </div>
                         </div>
 
@@ -449,66 +382,7 @@ const Models = () => {
                                 <span>Tools</span>
                             </span>
                             <div className="modal-tools">
-                                <div className="modal-tools-img-main">
-                                    <img src={html_icon} width="50" height="50" alt="html-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>HTML5</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={css_icon} width="50" height="50" alt="css-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>CSS3</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={js_icon} width="50" height="50" alt="JavaScript-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Javascript</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={bootstrap_icon} width="50" height="50" alt="bootstrap-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Bootstrap</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={php_icon} width="50" height="50" alt="php-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>PHP</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={websocket_icon} width="50" height="50" alt="websocket-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>WebSocket</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={mysql_icon} width="50" height="50" alt="mysql-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>MySQL</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={photoshop_icon} width="50" height="50" alt="photoshop-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Photoshop</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={figma_icon} width="50" height="50" alt="Figma-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Figma</p>
-                                    </div>
-                                </div>
-                                <div className="modal-tools-img-main">
-                                    <img src={illustrator_icon} width="50" height="50" alt="illustrator-img"></img>
-                                    <div className="skill-counter-main">
-                                        <p>Illustrator</p>
-                                    </div>
-                                </div>
+                                {chatSkillsData.map(({ id, icon, alt, name }) => <Card key={id} delay={id} icon={icon} alt={alt} name={name}/>)}
                             </div>
                         </div>
                         <div className="modal-info">
@@ -708,44 +582,9 @@ const Models = () => {
                                 </svg>
                                 <span>Tools</span>
                             </span>
-                                <div className="modal-tools">
-                                    <div className="modal-tools-img-main">
-                                        <img src={html_icon} width="50" height="50" alt="html-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>HTML5</p>
-                                        </div>
-                                    </div>
-                                    <div className="modal-tools-img-main">
-                                        <img src={css_icon} width="50" height="50" alt="css-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>CSS3</p>
-                                        </div>
-                                    </div>
-                                    <div className="modal-tools-img-main">
-                                        <img src={js_icon} width="50" height="50" alt="javaScript-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>JavaScript</p>
-                                        </div>
-                                    </div>
-                                    <div className="modal-tools-img-main">
-                                        <img src={gtmetrix_icon} width="50" height="50" alt="Gtmetrix-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>Gtmetrix</p>
-                                        </div>
-                                    </div>
-                                    <div className="modal-tools-img-main">
-                                        <img src={pagespeed_icon} width="50" height="50" alt="PageSpeed-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>PageSpeed Insights</p>
-                                        </div>
-                                    </div>
-                                    <div className="modal-tools-img-main">
-                                        <img src={hubspot_icon} width="50" height="50" alt="Hubspot-img"></img>
-                                        <div className="skill-counter-main">
-                                            <p>Hubspot</p> 
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="modal-tools">
+                                {OptimizAppData.map(({ id, icon, alt, name }) => <Card key={id} delay={id} icon={icon} alt={alt} name={name}/>)}
+                            </div>
                         </div>
 
                     </div>
@@ -756,5 +595,17 @@ const Models = () => {
     );
 };
 
-export default Models;
+export default Models
 
+const Card = ({ delay, icon, alt, name}) => {
+    return (
+        <SlideUp delay={delay}>
+            <div className="modal-tools-img-main">
+                <img src={icon} width="50" height="50" alt={alt} />
+                <div className="skill-counter-main">
+                    <p>{name}</p>
+                </div>
+            </div>
+        </SlideUp>
+    )
+}

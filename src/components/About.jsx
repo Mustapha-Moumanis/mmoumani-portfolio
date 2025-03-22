@@ -1,8 +1,10 @@
+import SlideUp from '../utlits/animations/slideUp'
+
 const About = () => {
     return (
         <section className="section-two overflow-hidden" id="about">
             <div className="row">
-                <h2 className="arya-stack-about fade_down"><span>I’m</span> Mustapha Moumanis</h2>
+                <SlideUp><h2 className="arya-stack-about"><span>I’m</span> Mustapha Moumanis</h2></SlideUp>
                 <h2 className="self-taught">
                     A <span>Full-Stack Developer</span> with a background in Multimedia Development and two years of coding experience at <span>1337 School</span>. 
                     I’ve honed <span>problem-solving</span> and <span>adaptability</span> through project-based learning.
@@ -18,28 +20,30 @@ const About = () => {
                 <h2 className="visionary">
                     With a blend of technical skills and experience, I’m ready to deliver impactful <span>full-stack solutions</span>.
                 </h2>
-                <div className="about-deatils-head fade_down">
-                    <div className="about-detail-main">
-                        <p className="about-detail">Name</p>
-                        <p className="about-detail-info">Moumanis Mustapha</p>
+                <SlideUp delay={6}>
+                    <div className="about-deatils-head">
+                        <div className="about-detail-main">
+                            <p className="about-detail">Name</p>
+                            <p className="about-detail-info">Moumanis Mustapha</p>
+                        </div>
+                        <div className="about-detail-main">
+                            <p className="about-detail">Nationality</p>
+                            <p className="about-detail-info">Morocco</p>
+                        </div>
+                        <div className="about-detail-main">
+                            <p className="about-detail">Phone</p>
+                            <p className="about-detail-info">+212602979288</p>
+                        </div>
+                        <div className="about-detail-main">
+                            <p className="about-detail">Email</p>
+                            <p className="about-detail-info">moumanis.mustapha@gmail.com</p>
+                        </div>
+                        <div className="about-detail-main">
+                            <p className="about-detail">Language</p>
+                            <p className="about-detail-info">English, Arabic</p>
+                        </div>
                     </div>
-                    <div className="about-detail-main">
-                        <p className="about-detail">Nationality</p>
-                        <p className="about-detail-info">Morocco</p>
-                    </div>
-                    <div className="about-detail-main">
-                        <p className="about-detail">Phone</p>
-                        <p className="about-detail-info">+212602979288</p>
-                    </div>
-                    <div className="about-detail-main">
-                        <p className="about-detail">Email</p>
-                        <p className="about-detail-info">moumanis.mustapha@gmail.com</p>
-                    </div>
-                    <div className="about-detail-main">
-                        <p className="about-detail">Language</p>
-                        <p className="about-detail-info">English, Arabic</p>
-                    </div>
-                </div>
+                </SlideUp>
             </div>
         </section>
     )

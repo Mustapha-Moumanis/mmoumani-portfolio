@@ -1443,7 +1443,7 @@ ul.slick-dots button {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    max-width: 179px;
+    min-width: 179px;
     width: 100%;
     height: 80px;
 }
@@ -2040,47 +2040,3 @@ button.bottom-top-button:hover > img {
 [title="Toggle full-screen mode"] {
     display: none;
 }
-
-/* ------------------------------------------------*/
-/* Phosphor Icons Start */
-/* ------------------------------------------------*/
-@font-face {
-    font-family: "Phosphor-Bold";
-    src: url("../fonts/Phosphor/Phosphor-Bold.woff2") format("woff2"), url("../fonts/Phosphor/Phosphor-Bold.woff") format("woff"), url("../fonts/Phosphor/Phosphor-Bold.ttf") format("truetype"), url("../fonts/Phosphor/Phosphor-Bold.svg#Phosphor-Bold") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-.ph-bold {
-    font-family: "Phosphor-Bold" !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.ph-bold.ph-moon-stars:before {
-    content: "\e58e";
-}
-
-.ph-bold.ph-sun:before {
-    content: "\e472";
-}
-
-.ph-bold.ph-github-logo:before {
-    content: "\e576";
-}
-
-.ph-bold.ph-x-logo:before {
-    content: "\e4bc";
-}
-
-.ph-bold.ph-linkedin-logo:before {
-    content: "\e2ee";
-}
-/* ------------------------------------------------*/
-/* Phosphor Icons End */
-/* ------------------------------------------------*/

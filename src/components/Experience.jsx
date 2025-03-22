@@ -5,7 +5,7 @@ import { experienceData } from "../utlits/projectData/projectData"
 const Experience = () => {
     return (
         <>
-            <SlideUp><h2 className="creative brand fade_up">Experience.</h2></SlideUp>
+            <SlideUp><h2 className="creative brand">Experience.</h2></SlideUp>
             {experienceData.map(({ id, title, company, cursus}) => <Card key={id} delay={id} title={title} company={company} cursus={cursus}/>)}
         </>
     )

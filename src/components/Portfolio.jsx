@@ -15,7 +15,7 @@ const Portfolio = () => {
             <div className="tabContainer">                           
                 <div id="one" className="Tabcondent tab-active">
                     <div className="gallery">
-                    {projectsData.map(({ id, data_bs_target, src, overlay_text, title }) => <Card key={id} delay={id} data_bs_target={data_bs_target} src={src} overlay_text={overlay_text} title={title}/>)}
+                        {projectsData.map(({ id, data_bs_target, src, overlay_text, title }) => <Card key={id} delay={id} data_bs_target={data_bs_target} src={src} overlay_text={overlay_text} title={title}/>)}
                     </div>
                 </div>
                 <Models />
@@ -28,20 +28,21 @@ export default Portfolio
 
 import content_icon from "../assets/images/svg/content-svg.svg"
 
-
 const Card = ({ delay, data_bs_target, title, src, overlay_text}) => {
     return (
         <SlideUp delay={delay}>
-            <div className="gallery-item-sub" data-content-type="content" data-bs-toggle="modal"
-                data-bs-target={data_bs_target}>
-                <img src={src} alt={overlay_text}></img>
-                <div className="overlay">
-                    <img src={content_icon} alt="content-svg" className="content-icon"></img>
-                    <p className="overlay-text">{overlay_text}</p>
+            <div className="gallery-item">
+                <div className="gallery-item-sub" data-content-type="content" data-bs-toggle="modal"
+                    data-bs-target={data_bs_target}>
+                    <img src={src} alt={overlay_text}></img>
+                    <div className="overlay">
+                        <img src={content_icon} alt="content-svg" className="content-icon"></img>
+                        <p className="overlay-text">{overlay_text}</p>
+                    </div>
                 </div>
-            </div>
-            <div className="gallery-info">
-                <h3>{title}</h3>
+                <div className="gallery-info">
+                    <h3>{title}</h3>
+                </div>
             </div>
         </SlideUp>
     )

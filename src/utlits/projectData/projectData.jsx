@@ -17,6 +17,15 @@ import figma_icon from "../../assets/images/svg/skills/Figma.svg"
 import git_icon from "../../assets/images/svg/skills/Git.svg"
 import nginx_icon from "../../assets/images/svg/skills/Nginx.svg"
 import postman_icon from "../../assets/images/svg/skills/Postman.svg"
+import postgresql_icon from "../../assets/images/svg/skills/icon-postgresql.svg"
+import php_icon from "../../assets/images/svg/skills/icon-php.svg"
+import mysql_icon from "../../assets/images/svg/skills/icon-mysql.svg"
+import photoshop_icon from "../../assets/images/svg/skills/photoshop.svg"
+import illustrator_icon from "../../assets/images/svg/skills/icon-illustrator.svg"
+import websocket_icon from "../../assets/images/svg/skills/WebSocket.png"
+import gtmetrix_icon from "../../assets/images/svg/skills/gtmetrix_icon.png"
+import pagespeed_icon from "../../assets/images/svg/skills/pagespeed-icon.svg"
+import hubspot_icon from "../../assets/images/svg/skills/hubspot.svg"
 
 export const projectsData = [
     {
@@ -88,14 +97,266 @@ export const experienceData = [
 export const AllSkillsData = [
     {
         id: 1,
-        image: cpp_icon,
+        icon: cpp_icon,
         alt: 'cpp-img',
         name: "C/C++",
     },
     {
         id: 2,
-        image: python_icon,
-        alt: 'cpp-img',
+        icon: python_icon,
+        alt: 'python-img',
         name: "Python",
+    },
+    {
+        id: 3,
+        icon: django_icon,
+        alt: 'django-img',
+        name: "django",
+    },
+    {
+        id: 4,
+        icon: react_icon,
+        alt: 'react-img',
+        name: "react",
+    },
+    {
+        id: 5,
+        icon: html_icon,
+        alt: 'html-img',
+        name: "html",
+    },
+    {
+        id: 6,
+        icon: css_icon,
+        alt: 'css-img',
+        name: "css",
+    },
+    {
+        id: 7,
+        icon: js_icon,
+        alt: 'js-img',
+        name: "Javascript",
+    },
+    {
+        id: 8,
+        icon: bootstrap_icon,
+        alt: 'bootstrap-img',
+        name: "bootstrap",
+    },
+    {
+        id: 9,
+        icon: docker_icon,
+        alt: 'docker-img',
+        name: "docker",
+    },
+    {
+        id: 10,
+        icon: figma_icon,
+        alt: 'figma-img',
+        name: "figma",
+    },
+    {
+        id: 11,
+        icon: git_icon,
+        alt: 'git-img',
+        name: "git",
+    },
+    {
+        id: 12,
+        icon: nginx_icon,
+        alt: 'nginx-img',
+        name: "nginx",
+    },
+    {
+        id: 13,
+        icon: postman_icon,
+        alt: 'postman-img',
+        name: "postman",
+    },
+]
+
+export const PingPongSkillsData = [
+    {
+        id: 1,
+        icon: html_icon,
+        alt: 'html-img',
+        name: "html",
+    },
+    {
+        id: 2,
+        icon: css_icon,
+        alt: 'css-img',
+        name: "css",
+    },
+    
+    {
+        id: 3,
+        icon: js_icon,
+        alt: 'js-img',
+        name: "Javascript",
+    },
+    {
+        id: 4,
+        icon: bootstrap_icon,
+        alt: 'bootstrap-img',
+        name: "bootstrap",
+    },
+    {
+        id: 5,
+        icon: django_icon,
+        alt: 'django-img',
+        name: "django",
+    },
+    {
+        id: 6,
+        icon: postman_icon,
+        alt: 'postman-img',
+        name: "postman",
+    },
+    {
+        id: 7,
+        icon: postgresql_icon,
+        alt: 'nginx-img',
+        name: "nginx",
+        
+    },
+    {
+        id: 8,
+        icon: nginx_icon,
+        alt: 'nginx-img',
+        name: "nginx",
+    },
+    {
+        id: 9,
+        icon: docker_icon,
+        alt: 'docker-img',
+        name: "docker",
+    },
+    {
+        id: 10,
+        icon: figma_icon,
+        alt: 'figma-img',
+        name: "figma",
+    },
+]
+
+export const webServSkillsData = [
+    {
+        id: 1,
+        icon: cpp_icon,
+        alt: 'cpp-img',
+        name: "C/C++",
+    },
+    {
+        id: 2,
+        icon: postman_icon,
+        alt: 'postman-img',
+        name: "postman",
+    },
+]
+
+export const chatSkillsData = [
+    {
+        id: 1,
+        icon: html_icon,
+        alt: 'html-img',
+        name: "html",
+    },
+    {
+        id: 2,
+        icon: css_icon,
+        alt: 'css-img',
+        name: "css",
+    },
+    
+    {
+        id: 3,
+        icon: js_icon,
+        alt: 'js-img',
+        name: "Javascript",
+    },
+    {
+        id: 4,
+        icon: bootstrap_icon,
+        alt: 'bootstrap-img',
+        name: "bootstrap",
+    },
+    {
+        id: 5,
+        icon: php_icon,
+        alt: 'php-img',
+        name: "PHP",
+    },
+    {
+        id: 6,
+        icon: websocket_icon,
+        alt: 'WebSocket-img',
+        name: "WebSocket",
+    },
+    
+    {
+        id: 7,
+        icon: mysql_icon,
+        alt: 'mysql-img',
+        name: "MySQL",
+    },
+    {
+        id: 8,
+        icon: photoshop_icon,
+        alt: 'photoshop-img',
+        name: "Photoshop",
+    },
+    
+    {
+        id: 9,
+        icon: figma_icon,
+        alt: 'figma-img',
+        name: "figma",
+    },
+    {
+        id: 10,
+        icon: illustrator_icon,
+        alt: 'illustrator-img',
+        name: "Illustrator",
+    },
+]
+
+export const OptimizAppData = [
+    {
+        id: 1,
+        icon: html_icon,
+        alt: 'html-img',
+        name: "html",
+    },
+    {
+        id: 2,
+        icon: css_icon,
+        alt: 'css-img',
+        name: "css",
+    },
+    
+    {
+        id: 3,
+        icon: js_icon,
+        alt: 'js-img',
+        name: "Javascript",
+    },
+    {
+        id: 4,
+        icon: gtmetrix_icon,
+        alt: 'Gtmetrix-img',
+        name: "Gtmetrix",
+    },
+    {
+        id: 5,
+        icon: pagespeed_icon,
+        alt: 'pagespeed-img',
+        name: "PageSpeed Insights",
+    },
+    {
+        id: 6,
+        icon: hubspot_icon,
+        alt: 'Hubspot-img',
+        name: "Hubspot",
     },
 ]

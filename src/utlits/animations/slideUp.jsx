@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 const SlideUp = ({ children, delay = 1 }) => {
     const slideLeftVariants = {
         offscreen: {
-            y: 40,
+            y: 100,
             opacity: 0
         },
         onscreen: {
@@ -13,7 +13,7 @@ const SlideUp = ({ children, delay = 1 }) => {
             transition: {
                 // type: "spring",
                 // bounce: 0.4,
-                duration: 0.6,
+                duration: 2,
                 delay: (delay === 1 ? 0 : 0.1 * delay)
             }
         }

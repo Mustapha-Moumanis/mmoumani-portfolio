@@ -5,7 +5,7 @@ import { educationData } from "../utlits/projectData/projectData"
 const Education = () => {
     return (
         <>
-            <SlideUp><h2 className="creative brand fade_up">Education</h2></SlideUp>
+            <SlideUp><h2 className="creative brand">Education</h2></SlideUp>
             {educationData.map(({ id, bachelor, university, cursus}) => <Card key={id} delay={id} bachelor={bachelor} university={university} cursus={cursus}/>)}
         </>
     )
