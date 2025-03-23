@@ -544,6 +544,7 @@ header {
 }
 .aryaBtn {
     color: var(--btn-border);
+    background-color: transparent;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -996,12 +997,6 @@ header {
 }
 .gallery-item-sub:hover .overlay {
     opacity: 1;
-}
-.vimeo-icon {
-    width: 64px;
-    height: 64px;
-    margin-bottom: 10px;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(181deg) brightness(103%) contrast(103%);
 }
 .overlay-text {
     color: #FFF;
@@ -2039,4 +2034,20 @@ button.bottom-top-button:hover > img {
 
 [title="Toggle full-screen mode"] {
     display: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.error-input {
+    border-color: #ff3333 !important;
+}
+  
+.error-text {
+    color: #ff3333;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0;
 }

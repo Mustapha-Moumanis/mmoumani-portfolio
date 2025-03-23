@@ -2,7 +2,7 @@ import { useTypewriter } from 'react-simple-typewriter'
 import { motion } from "motion/react"
 import resume from '../assets/pdf/Mustapha-Moumanis-resume.pdf'
 import download_icon from '../assets/images/svg/download-svg.svg'
-import profile_img from '../assets/images/home-images/pic.jpg'
+import profile_img from '/pic.jpg'
 import SlideUp from '../utlits/animations/slideUp'
 
 const Home = () => {
