@@ -3,59 +3,59 @@ import { chatSkillsData, OptimizAppData, PingPongSkillsData, webServSkillsData }
 // Model 1
 import ping_pong_home_screen from "../assets/images/works/ping-pong-app/ping-pong-home-screen.webp"
 import ping_pong_app from "../assets/images/works/ping-pong-app/ping-pong-app.webp"
-import register_dark from "../assets/images/works/ping-pong-app/register-dark.png"
-import register_light from "../assets/images/works/ping-pong-app/register-light.png"
-import login_dark from "../assets/images/works/ping-pong-app/login-dark.png"
-import login_light from "../assets/images/works/ping-pong-app/login-light.png"
-import reset_password_1_dark from "../assets/images/works/ping-pong-app/reset-password-1-dark.png"
-import reset_password_1_light from "../assets/images/works/ping-pong-app/reset-password-1-light.png"
-import reset_password_2_dark from "../assets/images/works/ping-pong-app/reset-password-2-dark.png"
-import reset_password_2_light from "../assets/images/works/ping-pong-app/reset-password-2-light.png"
-import security_settings_dark from "../assets/images/works/ping-pong-app/security-settings-dark.png"
-import security_settings_light from "../assets/images/works/ping-pong-app/security-settings-light.png"
-import enable_2fa_dark from "../assets/images/works/ping-pong-app/enable-2fa-dark.png"
-import enable_2fa_light from "../assets/images/works/ping-pong-app/enable-2fa-light.png"
-import docker from "../assets/images/works/ping-pong-app/docker.png"
+import register_dark from "../assets/images/works/ping-pong-app/register-dark.webp"
+import register_light from "../assets/images/works/ping-pong-app/register-light.webp"
+import login_dark from "../assets/images/works/ping-pong-app/login-dark.webp"
+import login_light from "../assets/images/works/ping-pong-app/login-light.webp"
+import reset_password_1_dark from "../assets/images/works/ping-pong-app/reset-password-1-dark.webp"
+import reset_password_1_light from "../assets/images/works/ping-pong-app/reset-password-1-light.webp"
+import reset_password_2_dark from "../assets/images/works/ping-pong-app/reset-password-2-dark.webp"
+import reset_password_2_light from "../assets/images/works/ping-pong-app/reset-password-2-light.webp"
+import security_settings_dark from "../assets/images/works/ping-pong-app/security-settings-dark.webp"
+import security_settings_light from "../assets/images/works/ping-pong-app/security-settings-light.webp"
+import enable_2fa_dark from "../assets/images/works/ping-pong-app/enable-2fa-dark.webp"
+import enable_2fa_light from "../assets/images/works/ping-pong-app/enable-2fa-light.webp"
+import docker from "../assets/images/works/ping-pong-app/docker.webp"
 
 // Model 2
-import SEO_assurance_before from "../assets/images/works/SEO-assurance-app/before.png"
-import SEO_assurance_after from "../assets/images/works/SEO-assurance-app/after.png"
+import SEO_assurance_before from "../assets/images/works/SEO-assurance-app/before.webp"
+import SEO_assurance_after from "../assets/images/works/SEO-assurance-app/after.webp"
 
 // Model 3
 
-import chat_home_screen from "../assets/images/works/chat-app/chat-app.png"
-import chat_mockup_app from "../assets/images/works/chat-app/chat-mockup-1.png"
-import login_1400x1400 from "../assets/images/works/chat-app/login-1400x1400.png"
-import login_800x800 from "../assets/images/works/chat-app/login-800x800.png"
-import logout_1400x1400 from "../assets/images/works/chat-app/logout-1400x1400.png"
-import logout_800x800 from "../assets/images/works/chat-app/logout-800x800.png"
-import register_1400x1400 from "../assets/images/works/chat-app/register-1400x1400.png"
-import register_800x800 from "../assets/images/works/chat-app/register-800x800.png"
-import reset_password_1400x1400 from "../assets/images/works/chat-app/reset-password-1400x1400.png"
-import reset_password_800x800 from "../assets/images/works/chat-app/reset-password-800x800.png"
-import change_password_1400x1400 from "../assets/images/works/chat-app/change-password-1400x1400.png"
-import change_password_800x800 from "../assets/images/works/chat-app/change-password-800x800.png"
-import profile_1400x1400 from "../assets/images/works/chat-app/profile-1400x1400.png"
-import profile_800x800 from "../assets/images/works/chat-app/profile-800x800.png"
-import settings_1400x1400 from "../assets/images/works/chat-app/settings-1400x1400.png"
-import settings_800x800 from "../assets/images/works/chat-app/settings-800x800.png"
-import disctop_content_1400x1400 from "../assets/images/works/chat-app/design/disctop-content-1400x1400.png"
-import disctop_content_800x800 from "../assets/images/works/chat-app/design/disctop-content-800x800.png"
-import t_shirt_1400x1400 from "../assets/images/works/chat-app/design/t-shirt-1400x1400.png"
-import t_shirt_800x800 from "../assets/images/works/chat-app/design/t-shirt-800x800.png"
-import cap_1400x1400 from "../assets/images/works/chat-app/design/cap-1400x1400.png"
-import cap_800x800 from "../assets/images/works/chat-app/design/cap-800x800.png"
-import pen_1400x1400 from "../assets/images/works/chat-app/design/pen-1400x1400.png"
-import pen_800x800 from "../assets/images/works/chat-app/design/pen-800x800.png"
-import cup_1400x1400 from "../assets/images/works/chat-app/design/cup-1400x1400.png"
-import cup_800x800 from "../assets/images/works/chat-app/design/cup-800x800.png"
-import van_1400x1400 from "../assets/images/works/chat-app/design/van-1400x1400.png"
-import van_800x800 from "../assets/images/works/chat-app/design/van-800x800.png"
-import truck_1400x1400 from "../assets/images/works/chat-app/design/truck-1400x1400.png"
-import truck_800x800 from "../assets/images/works/chat-app/design/truck-800x800.png"
+import chat_home_screen from "../assets/images/works/chat-app/chat-app.webp"
+import chat_mockup_app from "../assets/images/works/chat-app/chat-mockup-1.webp"
+import login_1400x1400 from "../assets/images/works/chat-app/login-1400x1400.webp"
+import login_800x800 from "../assets/images/works/chat-app/login-800x800.webp"
+import logout_1400x1400 from "../assets/images/works/chat-app/logout-1400x1400.webp"
+import logout_800x800 from "../assets/images/works/chat-app/logout-800x800.webp"
+import register_1400x1400 from "../assets/images/works/chat-app/register-1400x1400.webp"
+import register_800x800 from "../assets/images/works/chat-app/register-800x800.webp"
+import reset_password_1400x1400 from "../assets/images/works/chat-app/reset-password-1400x1400.webp"
+import reset_password_800x800 from "../assets/images/works/chat-app/reset-password-800x800.webp"
+import change_password_1400x1400 from "../assets/images/works/chat-app/change-password-1400x1400.webp"
+import change_password_800x800 from "../assets/images/works/chat-app/change-password-800x800.webp"
+import profile_1400x1400 from "../assets/images/works/chat-app/profile-1400x1400.webp"
+import profile_800x800 from "../assets/images/works/chat-app/profile-800x800.webp"
+import settings_1400x1400 from "../assets/images/works/chat-app/settings-1400x1400.webp"
+import settings_800x800 from "../assets/images/works/chat-app/settings-800x800.webp"
+import disctop_content_1400x1400 from "../assets/images/works/chat-app/design/disctop-content-1400x1400.webp"
+import disctop_content_800x800 from "../assets/images/works/chat-app/design/disctop-content-800x800.webp"
+import t_shirt_1400x1400 from "../assets/images/works/chat-app/design/t-shirt-1400x1400.webp"
+import t_shirt_800x800 from "../assets/images/works/chat-app/design/t-shirt-800x800.webp"
+import cap_1400x1400 from "../assets/images/works/chat-app/design/cap-1400x1400.webp"
+import cap_800x800 from "../assets/images/works/chat-app/design/cap-800x800.webp"
+import pen_1400x1400 from "../assets/images/works/chat-app/design/pen-1400x1400.webp"
+import pen_800x800 from "../assets/images/works/chat-app/design/pen-800x800.webp"
+import cup_1400x1400 from "../assets/images/works/chat-app/design/cup-1400x1400.webp"
+import cup_800x800 from "../assets/images/works/chat-app/design/cup-800x800.webp"
+import van_1400x1400 from "../assets/images/works/chat-app/design/van-1400x1400.webp"
+import van_800x800 from "../assets/images/works/chat-app/design/van-800x800.webp"
+import truck_1400x1400 from "../assets/images/works/chat-app/design/truck-1400x1400.webp"
+import truck_800x800 from "../assets/images/works/chat-app/design/truck-800x800.webp"
 
 // Model 4
-import webserv from "../assets/images/works/webserver/webserv.png"
+import webserv from "../assets/images/works/webserver/webserv.webp"
 import webserv_gif from "../assets/images/works/webserver/webserv.gif"
 import Fancybox from "../utlits/Fancyapps/Fancybox"
 import SlideUp from "../utlits/animations/slideUp"
@@ -83,7 +83,7 @@ const Models = () => {
                             >
                             <figure className="gallery__item">
                                 <a href={ping_pong_home_screen} data-fancybox="main-gallery" data-caption="Ping Pong App">
-                                    <img className="content-img" src={ping_pong_app} alt="Ping Pong App Screenshot" />
+                                    <img className="content-img" src={ping_pong_app} alt="Ping Pong App Screenshot" loading="lazy" />
                                 </a>
                             </figure>
                             </Fancybox>
@@ -142,13 +142,13 @@ const Models = () => {
                                 >
                                 <div className="modal-gallery">
                                     <a href={register_dark} data-fancybox="gallery" data-caption="Register">
-                                        <img src={register_light} alt="Register page" />
+                                        <img src={register_light} alt="Register page" loading="lazy"/>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Registration</span>
                                         </div>
                                     </a>
                                     <a href={login_dark} data-fancybox="gallery" data-caption="Login">
-                                        <img src={login_light} alt="Login page" />
+                                        <img src={login_light} alt="Login page" loading="lazy"/>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Login</span>
                                             <span className="rounded-tag opposite">Google</span>
@@ -156,13 +156,13 @@ const Models = () => {
                                         </div>
                                     </a>
                                     <a href={reset_password_1_dark} data-fancybox="gallery" data-caption="Reset Password">
-                                        <img src={reset_password_1_light} alt="Reset Password page" />
+                                        <img src={reset_password_1_light} alt="Reset Password page" loading="lazy"/>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Reset Password</span>
                                         </div>
                                     </a>
                                     <a href={reset_password_2_dark} data-fancybox="gallery" data-caption="Confirm Password Reset">
-                                        <img src={reset_password_2_light} alt="reset-password-2"></img>
+                                        <img src={reset_password_2_light} alt="reset-password-2" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Confirm Password Reset</span>
                                         </div>
@@ -184,15 +184,14 @@ const Models = () => {
                                     <div className="modal-gallery">
                                         <a href={security_settings_dark} data-fancybox="security-gallery"
                                             data-caption="Security Settings">
-                                            <img src={security_settings_light} alt="security settings"></img>
+                                            <img src={security_settings_light} alt="security settings" loading="lazy"></img>
                                             <div className="modal-gallery-tags d-flex flex-wrap">
                                                 <span className="rounded-tag opposite">Change Password</span>
                                             </div>
                                         </a>
                                         <a href={enable_2fa_dark} data-fancybox="security-gallery"
                                             data-caption="Login">
-                                            <img src={enable_2fa_light}
-                                                alt="login"></img>
+                                            <img src={enable_2fa_light} alt="login" loading="lazy"></img>
                                             <div className="modal-gallery-tags d-flex flex-wrap">
                                                 <span className="rounded-tag opposite">Secure Login</span>
                                             </div>
@@ -218,7 +217,7 @@ const Models = () => {
                                     <div className="modal-gallery">
                                         <a href={docker} data-fancybox="dockerized-gallery"
                                             data-caption="Docker Compose">
-                                            <img src={docker} alt="Dockerized Environment"></img>
+                                            <img src={docker} alt="Dockerized Environment" loading="lazy"></img>
                                             <div className="modal-gallery-tags d-flex flex-wrap">
                                                 <span className="rounded-tag opposite">Docker Compose</span>
                                             </div>
@@ -250,7 +249,7 @@ const Models = () => {
                             >
                             <figure className="gallery__item">
                                 <a href={webserv} data-fancybox="webserv-main-gallery" data-caption="Web server">
-                                    <img className="content-img" src={webserv_gif} alt="gallery-img1"></img>
+                                    <img className="content-img" src={webserv_gif} alt="gallery-img1" loading="lazy"></img>
                                 </a>
                             </figure>
                             </Fancybox>
@@ -306,7 +305,7 @@ const Models = () => {
                             >
                             <figure className="gallery__item">
                                 <a href={chat_home_screen} data-fancybox="chat-main-gallery" data-caption="Chat application">
-                                    <img className="content-img" src={chat_mockup_app} alt="gallery-img1"></img>
+                                    <img className="content-img" src={chat_mockup_app} alt="gallery-img1" loading="lazy"></img>
                                 </a>
                             </figure>
                             </Fancybox>
@@ -362,55 +361,49 @@ const Models = () => {
                                 <div className="modal-gallery">
                                     <a href={login_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Login interface">
-                                        <img src={login_800x800} alt="login"></img>
+                                        <img src={login_800x800} alt="login" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Login interface</span>
                                         </div>
                                     </a>
                                     <a href={logout_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Logout interface">
-                                        <img src={logout_800x800}
-                                            alt="logout"></img>
+                                        <img src={logout_800x800} alt="logout" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Logout interface</span>
                                         </div>
                                     </a>
                                     <a href={register_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Register interface">
-                                        <img src={register_800x800}
-                                            alt="register"></img>
+                                        <img src={register_800x800} alt="register" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Register interface</span>
                                         </div>
                                     </a>
                                     <a href={reset_password_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Reset Password">
-                                        <img src={reset_password_800x800}
-                                            alt="reset-password"></img>
+                                        <img src={reset_password_800x800} alt="reset-password" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Password Reset interface</span>
                                         </div>
                                     </a>
                                     <a href={change_password_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Change Password">
-                                        <img src={change_password_800x800}
-                                            alt="change-password"></img>
+                                        <img src={change_password_800x800} alt="change-password" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Change Password interface</span>
                                         </div>
                                     </a>
                                     <a href={profile_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="profile interface">
-                                        <img src={profile_800x800}
-                                            alt="profile"></img>
+                                        <img src={profile_800x800} alt="profile" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Profile interface</span>
                                         </div>
                                     </a>
                                     <a href={settings_1400x1400} data-fancybox="chat-interfice-gallery"
                                         data-caption="Settings interface">
-                                        <img src={settings_800x800}
-                                            alt="settings"></img>
+                                        <img src={settings_800x800} alt="settings" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Settings interface</span>
                                         </div>
@@ -429,49 +422,49 @@ const Models = () => {
                                 <div className="modal-gallery">
                                     <a href={disctop_content_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="Top View of Branding Elements">
-                                        <img src={disctop_content_800x800} alt="Top View of Branding Elements"></img>
+                                        <img src={disctop_content_800x800} alt="Top View of Branding Elements" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Top View of Branding Elements</span>
                                         </div>
                                     </a>
                                     <a href={t_shirt_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork T-shirt">
-                                        <img src={t_shirt_800x800} alt="inork T-shirt"></img>
+                                        <img src={t_shirt_800x800} alt="inork T-shirt" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork T-shirt</span>
                                         </div>
                                     </a>
                                     <a href={cap_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork Cap">
-                                        <img src={cap_800x800} alt="inork Cap"></img>
+                                        <img src={cap_800x800} alt="inork Cap" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork Cap</span>
                                         </div>
                                     </a>
                                     <a href={pen_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork Pen">
-                                        <img src={pen_800x800} alt="inork Pen"></img>
+                                        <img src={pen_800x800} alt="inork Pen" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork Pen</span>
                                         </div>
                                     </a>
                                     <a href={cup_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork Cup">
-                                        <img src={cup_800x800} alt="inork Cup"></img>
+                                        <img src={cup_800x800} alt="inork Cup" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork Cup</span>
                                         </div>
                                     </a>
                                     <a href={van_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork Van">
-                                        <img src={van_800x800} alt="inork Van"></img>
+                                        <img src={van_800x800} alt="inork Van" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork Van</span>
                                         </div>
                                     </a>
                                     <a href={truck_1400x1400} data-fancybox="chat-design-gallery"
                                         data-caption="inork Truck">
-                                        <img src={truck_800x800} alt="inork Truck"></img>
+                                        <img src={truck_800x800} alt="inork Truck" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">inork Truck</span>
                                         </div>
@@ -503,13 +496,13 @@ const Models = () => {
                             >
                             <figure className="modal-gallery">
                                     <a href={SEO_assurance_before} data-fancybox="SEO-main-gallery" data-caption="Before Optimization">
-                                        <img className="content-img" src={SEO_assurance_before} alt="gallery-img1"></img>
+                                        <img className="content-img" src={SEO_assurance_before} alt="gallery-img1" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">Before</span>
                                         </div>
                                     </a>
                                     <a href={SEO_assurance_after} data-fancybox="SEO-main-gallery" data-caption="After Optimization">
-                                        <img className="content-img" src={SEO_assurance_after} alt="gallery-img1"></img>
+                                        <img className="content-img" src={SEO_assurance_after} alt="gallery-img1" loading="lazy"></img>
                                         <div className="modal-gallery-tags d-flex flex-wrap">
                                             <span className="rounded-tag opposite">After</span>
                                         </div>
@@ -557,7 +550,7 @@ const Card = ({ delay, icon, alt, name}) => {
     return (
         <SlideUp delay={delay}>
             <div className="modal-tools-img-main">
-                <img src={icon} width="50" height="50" alt={alt} />
+                <img src={icon} width="50" height="50" alt={alt} loading="lazy"/>
                 <div className="skill-counter-main">
                     <p>{name}</p>
                 </div>

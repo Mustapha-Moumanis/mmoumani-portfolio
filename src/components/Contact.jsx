@@ -2,7 +2,6 @@
 import { useState, useRef } from 'react'
 import right_arrow from '../assets/images/svg/right-arrow.svg'
 import SlideUp from '../utlits/animations/slideUp'
-import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 
@@ -140,10 +139,9 @@ const Contact = () => {
 
     return (
         <section className="section-nine" id="contact">
-            <SlideUp><h3 className="creative brand">Let’s Talk <span> With Me</span></h3></SlideUp>
-            <h3 className="visionary">We are the top creative agency for branding corp. We offer a full range of
-                services to help clients improve their search engine rankings and drive more traffic to
-                their websites.
+            <SlideUp><h3 className="creative brand">Let’s Connect</h3></SlideUp>
+            <h3 className="visionary">
+            Feel free to reach out! Whether you want to discuss a project or just have a chat, I’d love to connect and collaborate.
             </h3>
             <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="input-main">
@@ -203,7 +201,7 @@ const Contact = () => {
                 </div>
                 <div className="download-btn">
                     <button className="aryaBtn">
-                        {loading ? 'sending...' : (<>Send Message <img src={right_arrow} alt="right-arrow"></img></>)}
+                        {loading ? 'sending...' : (<>Send Message <img src={right_arrow} alt="right-arrow" loading="lazy"></img></>)}
                     </button>
                 </div>
             </form>

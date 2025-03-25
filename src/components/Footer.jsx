@@ -4,8 +4,8 @@ const Footer = () => {
         <footer>
             <div className="rights-reserved">
                 <h2>
-                    Copyright @{year}, All Rights Reserved by 
-                    <a href="#"> Moumanis Mustapha</a>
+                    Copyright @{year}, All Rights Reserved by&nbsp;
+                    <a href="#">Moumanis Mustapha</a>
                 </h2>
                 {/* <div className="home-media-icon-main-head">
                     <a href="#" target="_blank">Terms & Conditions</a>

@@ -1,7 +1,7 @@
 import work_1 from "../../assets/images/works/ping-pong-app/ping-pong-app-800x800.webp"
-import work_2 from "../../assets/images/works/webserver/webserv-1400x1400.png"
+import work_2 from "../../assets/images/works/webserver/webserv-1400x1400.webp"
 import work_3 from "../../assets/images/works/chat-app/chat-app-800x800.webp"
-import work_4 from "../../assets/images/works/SEO-assurance-app/opt-assurance-app.png"
+import work_4 from "../../assets/images/works/SEO-assurance-app/opt-assurance-app.webp"
 
 // All Skills
 import cpp_icon from "../../assets/images/svg/skills/C++.svg"

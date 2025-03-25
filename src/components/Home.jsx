@@ -2,7 +2,7 @@ import { useTypewriter } from 'react-simple-typewriter'
 import { motion } from "motion/react"
 import resume from '../assets/pdf/Mustapha-Moumanis-resume.pdf'
 import download_icon from '../assets/images/svg/download-svg.svg'
-import profile_img from '/pic.jpg'
+import profile_img from '/pic.webp'
 import SlideUp from '../utlits/animations/slideUp'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
 
                     <div className="download-btn">
                         <a href={resume} className="aryaBtn" download='resume'>
-                            Download CV <img src={download_icon} alt="download-svg"></img>
+                            Download CV <img src={download_icon} alt="download-svg" loading="lazy"></img>
                         </a>
                     </div>
                 </div>
@@ -34,8 +34,7 @@ const Home = () => {
                         }}
                     >
                         <div className="position-relative zoom_in">
-                            <img className="portfolio-sec-img" src={profile_img}
-                                alt="moumanis mustapha"></img>
+                            <img className="portfolio-sec-img" src={profile_img} alt="moumanis mustapha" loading="lazy"></img>
                             
                             <div className="sec-name">
                                 <p className="ityped">{text}</p>

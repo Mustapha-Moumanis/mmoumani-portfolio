@@ -31,6 +31,7 @@ const Header = ({ hamburgerRef, toggleMenu }) => {
             <button
               className={`color-switcher header__switcher ${theme === "dark" ? "dark-mode" : "light-mode"}`}
               onClick={toggleTheme}
+              aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
               >
               <em></em>
               {

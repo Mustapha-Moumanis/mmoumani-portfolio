@@ -33,7 +33,7 @@ const Card = ({ delay, icon, alt, name}) => {
     return (
         <SlideUp delay={delay}>
             <div className="design-skills-img-main">
-                <img src={icon} width="50" height="50" alt={alt}></img>
+                <img src={icon} width="50" height="50" alt={alt} loading="lazy"></img>
                 <div className="skill-counter-main">
                     <p>{name}</p>
                 </div>

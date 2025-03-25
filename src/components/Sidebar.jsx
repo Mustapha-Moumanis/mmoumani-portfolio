@@ -24,22 +24,22 @@ const Sidebar = ({ menuRef, toggleMenu }) => {
         <div className="list-menu menu-list-main">
           <ul className="side-menu-ul">
             <li>
-              <a href="#home" onClick={toggleMenu}>HOME<img src={menu_home_icon} alt="home" /></a>
+              <a href="#home" onClick={toggleMenu}>HOME<img src={menu_home_icon} alt="Home icon" loading="lazy"/></a>
             </li>
             <li>
-              <a href="#about" onClick={toggleMenu}>ABOUT ME<img src={menu_about_icon} alt="about" /></a>
+              <a href="#about" onClick={toggleMenu}>ABOUT ME<img src={menu_about_icon} alt="About icon" loading="lazy"/></a>
             </li>
             <li>
-              <a href="#services" onClick={toggleMenu}>SERVICES<img src={menu_services_icon} alt="services" /></a>
+              <a href="#services" onClick={toggleMenu}>SERVICES<img src={menu_services_icon} alt="Services icon" loading="lazy"/></a>
             </li>
             <li>
-              <a href="#portfolio" onClick={toggleMenu}>PORTFOLIO<img src={menu_portfolio_icon} alt="portfolio" /></a>
+              <a href="#portfolio" onClick={toggleMenu}>PORTFOLIO<img src={menu_portfolio_icon} alt="Portfolio icon" loading="lazy"/></a>
             </li>
             <li>
-              <a href="#resume" onClick={toggleMenu}>RESUME<img src={menu_resume_icon} alt="resume" /></a>
+              <a href="#resume" onClick={toggleMenu}>RESUME<img src={menu_resume_icon} alt="Resume icon" loading="lazy"/></a>
             </li>
             <li>
-              <a href="#contact" onClick={toggleMenu}>CONTACT ME<img src={menu_contact_icon} alt="contact" /></a>
+              <a href="#contact" onClick={toggleMenu}>CONTACT ME<img src={menu_contact_icon} alt="Contact icon" loading="lazy"/></a>
             </li>
           </ul>
         </div>
