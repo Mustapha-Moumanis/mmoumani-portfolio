@@ -34,7 +34,7 @@ const Home = () => {
                         }}
                     >
                         <div className="position-relative zoom_in">
-                            <img className="portfolio-sec-img" src={profile_img} alt="moumanis mustapha" loading="lazy"></img>
+                            <img className="portfolio-sec-img" src={profile_img} alt="moumanis mustapha"></img>
                             
                             <div className="sec-name">
                                 <p className="ityped">{text}</p>

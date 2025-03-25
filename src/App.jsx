@@ -1,15 +1,16 @@
-import { useRef, useEffect } from 'react'
+import { useRef, Suspense, lazy } from 'react';
+
 import Preloader from './utlits/animations/preloader.jsx'
 
-import Sidebar from './components/Sidebar.jsx'
-import Header from './components/Header.jsx'
-import Home from './components/Home.jsx'
-import About from './components/About.jsx'
-import Services from './components/Services.jsx'
-import Portfolio from './components/Portfolio.jsx'
-import Resume from './components/Resume.jsx'
-import Contact from './components/Contact.jsx'
-import Footer from './components/Footer.jsx'
+const Header = lazy(() => import('./components/Header.jsx'));
+const Sidebar = lazy(() => import('./components/Sidebar.jsx'));
+const Home = lazy(() => import('./components/Home.jsx'));
+const About = lazy(() => import('./components/About.jsx'));
+const Services = lazy(() => import('./components/Services.jsx'));
+const Portfolio = lazy(() => import('./components/Portfolio.jsx'));
+const Resume = lazy(() => import('./components/Resume.jsx'));
+const Contact = lazy(() => import('./components/Contact.jsx'));
+const Footer = lazy(() => import('./components/Footer.jsx'));
 
 import './App.css'
 
@@ -41,15 +42,15 @@ function App() {
           </div>
 
           <div className="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
-            
-            <Home />
-            <About />
-            <Services />
-            <Portfolio />
-            <Resume />
-            <Contact />
-            <Footer />
-
+            <Suspense fallback={<div>Loading...</div>}>
+              <Home />
+              <About />
+              <Services />
+              <Portfolio />
+              <Resume />
+              <Contact />
+              <Footer />
+            </Suspense>
           </div>
         </div>
       </div>

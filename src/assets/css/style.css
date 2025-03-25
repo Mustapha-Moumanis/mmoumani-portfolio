@@ -2054,3 +2054,11 @@ button {
     margin-top: 4px;
     margin-bottom: 0;
 }
+.fallback-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+  }

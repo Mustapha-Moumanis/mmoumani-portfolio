@@ -42,7 +42,7 @@ const Header = ({ hamburgerRef, toggleMenu }) => {
             </IconContext.Provider>
   
             <div className="aryaBtn-toggle-main mt-0">
-              <button id="menu-toggle" className="menu-toggle-button" onClick={toggleMenu}>
+              <button id="menu-toggle" className="menu-toggle-button" onClick={toggleMenu} aria-label="Toggle navigation menu">
                 <span className="hamburger" id="hamburger-1" ref={hamburgerRef}>
                   <span className="line"></span>
                   <span className="line"></span>

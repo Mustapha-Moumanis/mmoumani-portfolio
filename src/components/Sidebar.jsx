@@ -59,13 +59,13 @@ const Sidebar = ({ menuRef, toggleMenu }) => {
               weight: "bold",
             }}
           >
-            <a href="https://github.com/Mustapha-Moumanis" className="media-icons" target="_blank">
+            <a href="https://github.com/Mustapha-Moumanis" className="media-icons" target="_blank" aria-label="Mustapha Moumanis on GitHub">
               <GithubLogo />
             </a>
-            <a href="https://www.linkedin.com/in/mustapha-moumanis/" className="media-icons" target="_blank">
+            <a href="https://www.linkedin.com/in/mustapha-moumanis/" className="media-icons" target="_blank" aria-label="Mustapha Moumanis on LinkedIn">
               <LinkedinLogo />
             </a>
-            <a href="https://discord.com/users/673013041725440010" className="media-icons" target="_blank">
+            <a href="https://discord.com/users/673013041725440010" className="media-icons" target="_blank" aria-label="Mustapha Moumanis on Discord">
               <DiscordLogo />
             </a>
             </IconContext.Provider>
