@@ -1,4 +1,3 @@
-
 import { useState, useRef } from 'react'
 import right_arrow from '../assets/images/svg/right-arrow.svg'
 import SlideUp from '../utlits/animations/slideUp'

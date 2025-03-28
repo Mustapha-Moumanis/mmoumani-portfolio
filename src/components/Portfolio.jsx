@@ -1,5 +1,5 @@
-import SlideUp from '../utlits/animations/slideUp.jsx';
 import { projectsData } from '../utlits/projectData/projectData.jsx'
+import SlideUp from '../utlits/animations/slideUp.jsx';
 import Models from './Models.jsx'
 
 const Portfolio = () => {
@@ -33,7 +33,7 @@ const Card = ({ delay, data_bs_target, title, src, overlay_text}) => {
             <div className="gallery-item">
                 <div className="gallery-item-sub" data-content-type="content" data-bs-toggle="modal"
                     data-bs-target={data_bs_target}>
-                    <img src={src} alt={overlay_text} loading="lazy" width="400" height="auto"></img>
+                    <img src={src} alt={overlay_text} loading="lazy" width="400" height="300"></img>
                     <div className="overlay">
                         <img src={content_icon} alt="content-svg" className="content-icon" loading="lazy"></img>
                         <p className="overlay-text">{overlay_text}</p>
